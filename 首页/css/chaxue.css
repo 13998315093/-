@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,h1,h2,h3,h4,h5,h6,ul,ol{margin:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:12px;}
+em,i{font-style:normal;}
+ul,ol{list-style:none;padding:0;}
+a{text-decoration:none;}
+img{vertical-align:middle;border:none;}
+.clearfix{zoom:1;}
+.clearfix:after{content:""; display:block; clear:both;}
+/*基本样式重置*/
+.main{width:1002px;margin:0 auto;}
+.mainLeft{float:left;}
+h4{width:600px;height:52px;line-height:52px;font-size:16px;background:#ffffff url(../images/list01.jpg) no-repeat left center;padding-left:32px;border-bottom:1px solid #dddddd;padding-top:6px;}
+.search{width:630px;height:176px;background:#f8f8f8;margin-top:14px;}
+.search p{height:26px;line-height:26px;font-size:14px;color:#0270c7;padding-left:18px;margin-top:20px;}
+.search ul{padding-left:18px;}
+.p01,.ul01{border-right:1px dashed #ddd;padding-right:36px;}
+.search li{height:34px;line-height:34px;}
+.search01{border:none;width:196px;height:22px;border:1px solid #ddd;}
+.search02{margin-left:12px;}
+.search03{float:left;}
+.search04{float:left;}
+ h5{font-size:16px;color:#555;padding-top:32px;}
+.content ul{width:300px;float:left;}
+.content li{height:32px;color:#333;font:12px/32px "宋体";}
+
+
+
+
+
+
+/*左下角*/
+.mainRight{width:354px;height:414px;float:right;}
+.mainRight01{width:304px;height:20px;font-size:16px;color:#555;background:#FFF url(../images/pic03.jpg) no-repeat 20px 26px;padding:26px 0 15px 50px;}
+.mainRight p{width:332px;height:206px;font-size:14px;line-height:30px;padding-left:20px;border-top:1px solid #ddd;}
+.mainRight p span{padding-left:44px;}
+.mainRight p strong{font-size:16px;font-weight:bold;}
+.mainRight{padding-left:6px;border-left:1px dashed #ddd;}
+/*右下角*/
+
+
+
+
+
+
+
+

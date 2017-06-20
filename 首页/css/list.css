@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,h1,h2,h3,h4,h5,h6,ul,ol{margin:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:12px;}
+em,i{font-style:normal;}
+ul,ol{list-style:none;padding:0;}
+a{text-decoration:none;}
+img{vertical-align:middle;border:none;}
+.clearfix{zoom:1;}
+.clearfix:after{content:""; display:block; clear:both;}
+
+
+/*基本样式重置*/
+.list{width:1002px;margin:0 auto;}
+.subMenu{float:left;margin:0 auto;width:630px;}
+h4{width:600px;font-size:16px;height:52px;line-height:52px;background:#fff url(../images/list01.jpg) no-repeat 0 24px;padding-top:8px;padding-left:32px;border-bottom:2px solid #ddd;}
+.subMenuLeft{float:left;}
+.h501{width:480px;height:30px;line-height:30px;font-size:14px;text-align:center;color:#7b6666;background:#efefef;margin-top:16px;}
+.subMenuLeft ul li{height:48px;line-height:48px;font-size:14px;border-bottom:1px dashed #ddd;}
+.subMenuLeft ul li a{color:#555;}
+.subMenuRight{float:right;width:150px;text-align:center;}
+.h502{width:150px;height:30px;line-height:30px;background:#efefef;margin-top:16px;}
+.subMenuRight ul li{height:48px;line-height:48px;border-bottom:1px dashed #ddd;font-size:10px;}
+.subMenuRight ul li a{color:#999;}
+/*左边列表*/
+.mainRight{float:right;width:352px;height:588px;}
+.titleRight{width:304px;height:20px;font-size:16px;color:#555;background:#FFF url(../images/pic03.jpg) no-repeat 20px 26px;padding:26px 0 15px 50px;}
+.mainRight p{width:332px;font-size:14px;line-height:34px;padding-left:20px;border-top:1px solid #ddd;}
+.mainRight p strong{font-size:18px;font-weight:bold;}
+.mainRight p span{padding-left:48px;}
+/*右边列表*/
+.mainRight{padding-left:8px;border-left:1px dashed #ddd;}
+
+
+
+
+

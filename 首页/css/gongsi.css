@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,dl,dd,h1,h2,h3,h4,h5,h6,ul,ol{margin:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:12px;}
+em,i{font-style:normal;}
+ul,ol{list-style:none;padding:0;}
+a{text-decoration:none;}
+img{vertical-align:middle;border:none;}
+.clearfix{zoom:1;}
+.clearfix:after{content:""; display:block; clear:both;}
+
+/*基本样式重置*/
+.logo{margin:0 auto;width:1002px;height:86px;}
+.msg{float:right;height:82px;line-height:82px;font-size:12px;text-align:right;color:#888;}
+/*标题栏样式*/
+.nav{height:46px;background:#005db0;}
+.nav ul{width:1002px;margin:0 auto;line-height:46px;}
+.nav ul li{float:left;}
+.nav ul li a{display:block;height:46px;font-size:16px;color:#fffff2;border-left:1px solid #1c6db5;padding:0 26px;}
+.nav ul li a:hover{background:#00498b;}
+.nav01{border-right:1px solid #1c6db5;}
+/*导航栏样式*/
+.bannerbg{background:url(../images/banner.jpg) no-repeat center center;}
+.banner{width:1000px;margin:0 auto;}
+/*焦点图*/
+.foot{width:1002px;margin:0 auto;}
+.foot01{float:left;width:252px;height:600px;background:#f8f8f8;border:1px solid #e5e5e5;margin-top:20px;margin-bottom:20px;}
+.foot01 li{height:58px;line-height:58px;font-size:16px;border-bottom:1px solid #e5e5e5;}
+.li01{background:url(../images/gongsi1.jpg) no-repeat 74px 16px;}
+.li02{background:url(../images/gongsi2.jpg) no-repeat 74px 16px;}
+.li03{1px solid #e5e5e5;background:url(../images/gongsi3.jpg) no-repeat 74px 16px;}
+.li04{1px solid #e5e5e5;background:url(../images/gongsi4.jpg) no-repeat 74px 16px;}
+.foot01 li a{padding-left:110px;color:#555;}
+.li01 a:hover{display:inline-block;width:246px;border-left:3px solid #005db0;background:#fff url(../images/gongsi1.jpg) no-repeat 74px 16px;color:#005db0;}
+.li02 a:hover{display:inline-block;width:246px;border-left:3px solid #005db0;background:#fff url(../images/gongsi2.jpg) no-repeat 74px 16px;color:#005db0;}
+.li03 a:hover{display:inline-block;width:246px;border-left:3px solid #005db0;background:#fff url(../images/gongsi3.jpg) no-repeat 74px 16px;color:#005db0;}
+.li04 a:hover{display:inline-block;width:246px;border-left:3px solid #005db0;background:#fff url(../images/gongsi4.jpg) no-repeat 74px 16px;color:#005db0;}
+/*左下角*/
+.footRight{float:left;width:718px;padding-left:30px;margin-top:20px;}
+.footRight h3{height:56px;line-height:56px;color:#005db0;font-size:22px;}
+.footRight h3 span{color:#b4bec0;}
+.footRight h5{height:22px;line-height:22px;font-size:16px;font-family:"微软雅黑";}
+.footRight .p02{line-height:28px;padding-top:8px;font-size:14px;color:#666;text-indent:2em;}
+.footRight h4{height:44px;line-height:44px;font-size:16px;font-weight:bold;}
+.footRight .p01{font-size:14px;color:#666;}
+.footRight ul{line-height:28px;font-size:14px;color:#666;}
+/*右下角*/
+.footer{margin:0 auto;height:60px;line-height:60px;font-size:14px;background:#efefef;color:#888;text-align:center;}
+
+
+
+
+
+
+
